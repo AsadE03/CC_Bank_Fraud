@@ -1,0 +1,82 @@
+################################
+# Global / OS
+################################
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.log
+
+################################
+# Environment variables
+################################
+.env
+.env.*
+!.env.example
+
+################################
+# IDE / Editor
+################################
+.vscode/
+.idea/
+*.iml
+
+################################
+# Python / FastAPI (backend/)
+################################
+backend/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+
+# Virtual environments
+backend/venv/
+backend/.venv/
+backend/env/
+backend/.env/
+
+# Python tooling
+backend/.mypy_cache/
+backend/.pytest_cache/
+backend/.coverage
+backend/htmlcov/
+backend/.ruff_cache/
+
+# Build / dist
+backend/build/
+backend/dist/
+backend/*.egg-info/
+
+################################
+# Node / Next.js (frontend/)
+################################
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/dist/
+
+# Logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+################################
+# Next.js specific
+################################
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+################################
+# Turborepo / Vercel (if used)
+################################
+.turbo/
+.vercel/
+
+################################
+# Coverage
+################################
+coverage/
+
+.venv
